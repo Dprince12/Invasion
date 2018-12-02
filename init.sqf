@@ -16,3 +16,6 @@ null = [] spawn LF_fnc_heliInit;
 
 
 cost = false;
+
+//EOS SYSTEM
+[]execVM "eos\OpenMe.sqf";
