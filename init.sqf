@@ -1,5 +1,6 @@
 
-
+//EOS SYSTEM
+[]execVM "eos\OpenMe.sqf";
 //Recruit AI System
 [] execVM "bon_recruit_units\init.sqf";
 //SA AI Revive
@@ -16,6 +17,3 @@ null = [] spawn LF_fnc_heliInit;
 
 
 cost = false;
-
-//EOS SYSTEM
-[]execVM "eos\OpenMe.sqf";

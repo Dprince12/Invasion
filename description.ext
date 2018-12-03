@@ -31,21 +31,3 @@ class CfgCommunicationMenu
         removeAfterExpressionCall = 1; // 1 to remove the item after calling
     };
 }; 
-
-ReviveUnconsciousStateMode = 0;         //0: basic, 1: advanced, 2: realistic
-ReviveRequiredTrait = 1;                //0: none, 1: medic trait is required
-ReviveRequiredItems = 2;                //0: none, 1: medkit, 2: medkit or first aid kit
-ReviveRequiredItemsFakConsumed = 1;     //0: first aid kit is not consumed upon revive, 1: first aid kit is consumed
-ReviveDelay = 3;                        //time needed to revive someone (in secs)
-ReviveMedicSpeedMultiplier = 2;         //speed multiplier for revive performed by medic
-ReviveForceRespawnDelay = 5;            //time needed to perform force respawn (in secs)
-ReviveBleedOutDelay = 180;              //unconscious state duration (in secs)
-corpseManagerMode = 1; //Type of removed bodies: 0 - none, 1 - all, 2 - only respawnable, 3 - only non-respawnable 
-corpseLimit = 20; //Max number of bodies which can be available at the same time. When exceeded, start deleting immediately. 
-corpseRemovalMinTime = 120; //Minimal time in seconds a body stays in the scene (can't be removed sooner). 
-corpseRemovalMaxTime = 240; //Maximal time in seconds after which a dead body is removed (can't stay longer) 
-
-wreckManagerMode = 1; //Type of removed wrecks: 0 - none, 1 - all, 2 - only respawnable, 3 - only non-respawnable 
-wreckLimit = 20; //Max number of wrecks which can be available at the same time. When exceeded, start deleting immediately. 
-wreckRemovalMinTime = 120; //Minimal time in seconds a wreck stays in the scene (can't be removed sooner). 
-wreckRemovalMaxTime = 240; //Maximal time in seconds after which a wreck is removed (can't stay longer)

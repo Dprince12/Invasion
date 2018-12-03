@@ -22,9 +22,9 @@ helisup = supportmenu handle
 MENU_SUPPORT_1 =
 [
 	["Support Menu",false],
-	["Transport", [2], "#USER:MENU_TRANSPORT_1", -5, [], "1", "1"],
-	["Supplies", [3], "#USER:MENU_SUPPLY_1", -5, [], "1", "1"],
-	["Orders", [4], "#USER:MENU_ORDERS_1", -5, [], "1", "1"]
+	["Transport", [2], "#USER:MENU_TRANSPORT_1", -5, [], "1", "1"]
+	//["Supplies", [3], "#USER:MENU_SUPPLY_1", -5, [], "1", "1"],
+	//["Orders", [4], "#USER:MENU_ORDERS_1", -5, [], "1", "1"]
 ];
 MENU_TRANSPORT_1 =
 [
@@ -42,8 +42,8 @@ MENU_TRANSPORT_1 =
 	// isActive - Boolean 1 or 0 for yes or no - if item is not active, it appears gray.
 	// optional icon path: The path to the texture of the cursor, that should be used on this menuitem.
 	["chopper transport", [2], "", -5, [["expression", "LF_taxiScript = [helitaxi, helipad0, callsign] execVM 'support\taxi\helotaxi.sqf'"]], "1", "1"],
-	["Transport RTB", [3], "", -5, [["expression", "LF_taxiScript = [helitaxi, helipad0, callsign] execVM 'support\taxi\heloRTB.sqf';"]], "1", "1"],
-	["engineer callout", [4], "", -5, [["expression", "hint '(planned) chopper brings a scripted engineer out to your position to fix your shit up';"]], "1", "1"]
+	["Transport RTB", [3], "", -5, [["expression", "LF_taxiScript = [helitaxi, helipad0, callsign] execVM 'support\taxi\heloRTB.sqf';"]], "1", "1"]
+//	["engineer callout", [4], "", -5, [["expression", "hint '(planned) chopper brings a scripted engineer out to your position to fix your shit up';"]], "1", "1"]
 ];
 MENU_SUPPLY_1 =
 [
