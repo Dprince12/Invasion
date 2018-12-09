@@ -7,27 +7,29 @@ onLoadMission = "";
 
 #include "bon_recruit_units\dialog\common.hpp"
 #include "bon_recruit_units\dialog\recruitment.hpp"
-//Helo Stuff
+
+
+///////////////////HELO CRAP gotta work with it for now////////////////////////////////////////////
 class CfgCommunicationMenu
 {
     class helo_taxi
     {
         text = "Support Menu"; // Text displayed in the menu and in a notification
         submenu = "#USER:MENU_SUPPORT_1";  // Submenu opened upon activation
-		expression = "";
+        expression = "";
         icon = "\a3\ui_f\data\gui\cfg\hints\CallSupport_CA.paa";
         cursor = ""; // Custom cursor displayed when the item is selected
         enable = "1"; // Simple expression condition for enabling the item
         removeAfterExpressionCall = 1; // 1 to remove the item after calling
     };
-	 class reset_helo
+     class reset_helo
     {
         text = "Reset Support Comms"; // Text displayed in the menu and in a notification
         submenu = "";  // Submenu opened upon activation
-		expression = "LF_resetHelo = [helitaxi, helipad0, callsign] execVM 'support\HQ\resetCommsMenu.sqf'";
+        expression = "LF_resetHelo = [helitaxi, helipad0, callsign] execVM 'support\HQ\resetCommsMenu.sqf'";
         icon = "";
         cursor = ""; // Custom cursor displayed when the item is selected
         enable = "1"; // Simple expression condition for enabling the item
         removeAfterExpressionCall = 1; // 1 to remove the item after calling
     };
-}; 
+};
