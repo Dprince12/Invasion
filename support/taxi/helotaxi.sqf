@@ -1,4 +1,5 @@
-/*heli taxi script by lordfrith, adapted and rewritten from the awesome DUWS mission support chopper by KIBOT in accordance with the licence of duws which states:
+/*
+heli taxi script by lordfrith, adapted and rewritten from the awesome DUWS mission support chopper by KIBOT in accordance with the licence of duws which states:
 "You can remix, tweak, and build upon my work non-commercially, as long as you credit me and license your creations under these same identical terms. "
 usage:
 written and tested in SP only
@@ -53,7 +54,7 @@ in eden editor: place a chopper with crew and call it "helitaxi". place a helipa
 		_callsign = _this select 2;
 		_startPos = getPos _basePad;
 		_pickPos = [];
-		_dropPos = helipad2;
+		_dropPos = [];
 		_pilot = driver _helo;
 		_plName = name player;//not sure if in mp this will be the player who called action or different for each player
 // global variables
@@ -99,7 +100,7 @@ in eden editor: place a chopper with crew and call it "helitaxi". place a helipa
 		sleep 2;
 		
 		[_helotype, 2, "DZ"] call LF_fnc_mapClick;
-		_dropPos;
+		_dropPos = getPos helipad2;
 //check if cost active and if so mworkout journey
 		sleep 2;
 		
@@ -107,7 +108,7 @@ in eden editor: place a chopper with crew and call it "helitaxi". place a helipa
 				_pilot sideChat format["%1 to %2, route denied, distances of less than one Kilometer are not authorised",_callsign, _plName];
 				sleep 5;
 				deleteVehicle helipad1;
-				deleteVehicle _dropPos;
+				deleteVehicle helipad2;
 				deleteMarker str(StartMk);
 				deleteMarker str(EndMk);
 				helisup = [player,"helo_taxi"] call BIS_fnc_addCommMenuItem;
@@ -182,10 +183,10 @@ in eden editor: place a chopper with crew and call it "helitaxi". place a helipa
 		_deRes = [player,resetsup] call BIS_fnc_removeCommMenuItem;
 		sleep 0.5;
 		
-		_emrgncyLand = _helo addAction ["<t color='#00b7ff'>Divert to new LZ</t>", "support\taxi\LandHere.sqf", [], 0, true, true, "", "true"];
-		_helo addAction ["<t color= '#ff0000'>RTB</t>","support\taxi\RTB.sqf"];
+		_helo addAction ["<t color='ff0000>Return to Base</t>", "support\taxi\RTB.sqf"];
+		_emrgncyLand = _helo addAction ["<t color='#00b7ff'>Land here</t>", "support\taxi\LandHere.sqf", [], 0, true, true, "", "true"];
 
-		waitUntil {_dropPos distance _helo < 200  or (vehicle _pilot == _pilot or !alive _pilot)}; // wait until the helo is near the lz
+		waitUntil {helipad2 distance _helo < 200  or (vehicle _pilot == _pilot or !alive _pilot)}; // wait until the helo is near the lz
 		_helo vehicleChat format["wake up %1! we're approaching your location for drop off, get your shit together",_plName];
 // IF THE PILOT IS DEAD OR CHOPPA DOWN  **************
 		[_pilot] call LF_fnc_deadCheck;
@@ -198,7 +199,7 @@ in eden editor: place a chopper with crew and call it "helitaxi". place a helipa
 		_helo removeAction _emrgncyLand;
 		resetsup = [player,"reset_helo"] call BIS_fnc_addCommMenuItem;
 // time to move ppl out of the helo;
-		waitUntil {(getpos _helo select 2 < 4 && _helo distance _dropPos<20)  or (vehicle _pilot == _pilot or !alive _pilot)}; // wait until the helo is near the ground
+		waitUntil {(getpos _helo select 2 < 4 && _helo distance helipad2<20)  or (vehicle _pilot == _pilot or !alive _pilot)}; // wait until the helo is near the ground
 // IF THE PILOT IS DEAD OR CHOPPA DOWN  **************
 		[_pilot] call LF_fnc_deadCheck;
 		if (crashed) Exitwith {
@@ -211,7 +212,7 @@ in eden editor: place a chopper with crew and call it "helitaxi". place a helipa
 		sleep 20;
 
 		deleteVehicle helipad1;
-		deleteVehicle _dropPos;
+		deleteVehicle helipad2;
 		deleteMarker str(StartMk);
 		deleteMarker str(EndMk);
 // spawn the door opening script

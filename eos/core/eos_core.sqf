@@ -193,6 +193,8 @@ if (_debug) then {player sidechat format ["Chopper:%1",_counter];0= [_mkr,_count
 _eosAct=true;	
 while {_eosAct} do
 	{
+	_future = time + "mytime" call BIS_fnc_getParamValue;
+	waitUntil {time >= _future}; 
 	// IF PLAYER LEAVES THE AREA OR ZONE DEACTIVATED
 	if (!triggeractivated _eosActivated || getmarkercolor _mkr == "colorblack") exitwith 
 		{

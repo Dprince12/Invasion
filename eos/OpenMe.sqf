@@ -22,7 +22,7 @@ bastionColor="colorWhite";	// Colour for bastion marker
 EOS_DAMAGE_MULTIPLIER=1;	// 1 is default
 EOS_KILLCOUNTER=false;		// Counts killed units
 
-null =[["EOSzone1"],[1,2],[1,2],[0,0],[0],[0],[0],[5,2,100,EAST]] call EOS_Spawn;
+null =[["EOSzone1"],[1,2],[1,2],[0,0],[0],[0],[0],[5,0,100,EAST,false,true]] call EOS_Spawn;
 null =[["EOSzone2"],[1,2],[1,2],[0,0],[0],[0],[0],[5,2,100,EAST]] call EOS_Spawn;
 null =[["EOSzone3"],[1,2],[1,2],[0,0],[0],[0],[0],[5,2,100,EAST]] call EOS_Spawn;
 null =[["EOSzone4"],[1,2],[1,2],[0,0],[0],[0],[0],[5,2,100,EAST]] call EOS_Spawn;

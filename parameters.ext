@@ -1,0 +1,11 @@
+class Params
+{
+class mytime
+	{
+		title = "Time Sectors will stay active (in minutes)";
+        texts[] = {"5 Minutes","10 Minutes","15 Minutes","20 Minutes","25 Minutes","30 Minutes"};
+		values[] = {(5 * 60), (10 * 60), (15 * 60), (20 * 60), (25 * 60), (30 * 60)};
+		default = (5 * 60);
+		file = "eos\core\eos_core.sqf"; // (Optional) Script [[call]]ed when player joins, selected value is passed as an argument
+	};
+};
