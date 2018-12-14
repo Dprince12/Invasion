@@ -1,2 +1,2 @@
-if (markerColor "EOSzone1" == "colorRed") then {hint "Opjective Not Captured"};
-if (markerColor "EOSzone1" == "colorGreen") then {hint "Opjective Captured" = taskState ("Capture_Eginio") == "SUCCEEDED"};
+if (markerColor "EOSzone1" == "colorRed") then {hint "Objective Not Captured"};
+if (markerColor "EOSzone1" == "colorGreen") then {hint "Objective Captured" = taskState ("Capture_Eginio") == "SUCCEEDED"};
