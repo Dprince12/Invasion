@@ -10,6 +10,6 @@ null = [] spawn LF_fnc_heliInit;
 cost=false;
 [] execVM "bon_recruit_units\init.sqf";
 [] execVM "Prince\capture.sqf";
-[] execVM "params.ext";
+
 
 

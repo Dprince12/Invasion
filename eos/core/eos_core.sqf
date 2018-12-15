@@ -13,6 +13,7 @@ _settings=(_this select 5);_faction=_settings select 0;_mA=_settings select 1;_d
 _heightLimit=if (count _settings > 4) then {_settings select 4} else {false};
 _debug=if (count _settings > 5) then {_settings select 5} else {false};
 _cache= if (count _this > 6) then {_this select 6} else {false};
+//_future = [mytime] select (paramsArray);
 
 
 	if (_side==EAST) then {_enemyFaction="east";_civZone=false;};
@@ -193,8 +194,7 @@ if (_debug) then {player sidechat format ["Chopper:%1",_counter];0= [_mkr,_count
 _eosAct=true;	
 while {_eosAct} do
 	{
-	_future = time + "mytime" call BIS_fnc_getParamValue;
-	waitUntil {time >= _future}; 
+	waitUntil {time >= (10 * 60)}; 
 	// IF PLAYER LEAVES THE AREA OR ZONE DEACTIVATED
 	if (!triggeractivated _eosActivated || getmarkercolor _mkr == "colorblack") exitwith 
 		{
