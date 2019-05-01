@@ -1,0 +1,21 @@
+player createDiaryRecord ["Diary",["Situation","
+
+/////////////////////<br/>
+1.0<br/>
+Fixed towns not being able to be capped,<br/>
+Added dynamic weather,<br/>
+Added time multiplier for faster day night<br/>
+Made civilians spawn in all towns and villages<br/>
+<br/>
+/////////////////////<br/>
+0.0.7<br/>
+hotfix for enemy units ragdolling and getting back up, (issue with ace and Vcom/ Fix for now is to get rid of Vcom.)<br/>
+<br/>
+/////////////////////<br/>
+0.0.6<br/>
+have added sector control, just for tasking. <br/>
+reworked the base a littlebit, <br/>
+added VA to inside base, next to officer to recruit soldiers at.<br/>
+<br/>
+/////////////////////<br/>
+0.0.5 Initial Release"]];
