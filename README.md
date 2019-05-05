@@ -1,8 +1,29 @@
 # Invasion
-Arma 3 CTI mission
+/////////////////////
+0.1.2
 
-Version 0.0.5 first release, very basic so far. just get it working
+/////////////////////
+0.1.1
+Nighttime only lasts a hour starting at 2100 time increases till 0500 then time slows back down.
+Added more lights at base so its not so dark at night. (untactical but it helps see where your going)
+added pictures to the whiteboard and loading screen.
 
-known issues, RTB in flight does not land helo, plan rewrite of whole transport, current system very confusing. 
+/////////////////////
+1.0
+Fixed towns not being able to be capped,
+Added dynamic weather,
+Added time multiplier for faster day night
+Made civilians spawn in all towns and villages
 
-Vcom has been added into mission file, no need to run it on server. (YAY)!!!
+/////////////////////
+0.0.7
+hotfix for enemy units ragdolling and getting back up, (issue with ace and Vcom/ Fix for now is to get rid of Vcom.)
+
+/////////////////////
+0.0.6
+have added sector control, just for tasking. 
+reworked the base a littlebit, 
+added VA to inside base, next to officer to recruit soldiers at.
+
+/////////////////////
+0.0.5 Initial Release
