@@ -1,6 +1,16 @@
 player createDiaryRecord ["Diary",["Situation","
 
 /////////////////////<br/>
+0.1.2<br/>
+
+
+/////////////////////<br/>
+0.1.1<br/>
+Nighttime only lasts a hour starting at 2100 time increases till 0500 then time slows back down.<br/>
+Added more lights at base so its not so dark at night. (untactical but it helps see where your going)<br/>
+added pictures to the whiteboard and loading screen.<br/>
+<br/>
+/////////////////////<br/>
 1.0<br/>
 Fixed towns not being able to be capped,<br/>
 Added dynamic weather,<br/>
@@ -19,3 +29,4 @@ added VA to inside base, next to officer to recruit soldiers at.<br/>
 <br/>
 /////////////////////<br/>
 0.0.5 Initial Release"]];
+

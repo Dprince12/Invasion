@@ -3,8 +3,6 @@ respawnTemplatesWest[] = {"MenuPosition"};
 author = "Prince"; 
 onLoadName = "CTI"; 
 onLoadMission = ""; 
-etTimeMultiplier = 24;
-
 
 #include "bon_recruit_units\dialog\common.hpp"
 #include "bon_recruit_units\dialog\recruitment.hpp"
