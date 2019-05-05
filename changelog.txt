@@ -2,7 +2,7 @@ player createDiaryRecord ["Diary",["Situation","
 
 /////////////////////<br/>
 0.1.2<br/>
-
+reactivated Vcom, hopefully without ragdolling the AI will die. 
 
 /////////////////////<br/>
 0.1.1<br/>
