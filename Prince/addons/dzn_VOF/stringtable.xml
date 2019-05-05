@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="dzn_VOF">
+	<Package name="dzn_VOF">
+		<Container name="HintMessages">
+			<Key ID="STR_VOF_transmissionDamage">
+				<Original>TRANSMISSION FAILURE</Original>				
+				<Russian>ПОЛОМКА ТРАНСМИССИИ</Russian>
+			</Key>
+			<Key ID="STR_VOF_fire">
+				<Original>FIRE</Original>				
+				<Russian>ПОЖАР</Russian>
+			</Key>
+			
+			<Key ID="STR_VOF_Enabled">
+				<Original>Enabled</Original>				
+				<Russian>Включено</Russian>
+			</Key>
+			<Key ID="STR_VOF_Enabled_desc">
+				<Original>Restart is needed</Original>				
+				<Russian>Требуется рестарт миссии</Russian>
+			</Key>
+			
+			<Key ID="STR_VOF_LoopTimeout">
+				<Original>Vehicle check loop timeout</Original>				
+				<Russian>Таймаут проверки добавленных машин</Russian>
+			</Key>
+			<Key ID="STR_VOF_LoopTimeout_desc">
+				<Original>Timeout between checks of new vehicles spawned during the game and adding VOF logic to them</Original>				
+				<Russian>Таймаут между проверками наличия добавленных машин в течении игры и добавление логики VOF на них</Russian>
+			</Key>
+			
+			<Key ID="STR_VOF_BurningTimeoutMin">
+				<Original>Burning out timeout (min)</Original>				
+				<Russian>Время выгорания (мин)</Russian>
+			</Key>
+			<Key ID="STR_VOF_BurningTimeoutMin_desc">
+				<Original>Minimum for randomization of timeout before vehicle become destroyed by fire; Should be less than Burning out timeout (max)</Original>				
+				<Russian>Минимум для выбора времени полного выгорания машин. Должен быть меньше Время выгорания (макс).</Russian>
+			</Key>
+			
+			<Key ID="STR_VOF_BurningTimeoutMax">
+				<Original>Burning out timeout (max)</Original>				
+				<Russian>Время выгорания (макс)</Russian>
+			</Key>
+			<Key ID="STR_VOF_BurningTimeoutMax_desc">
+				<Original>Maximum for randomization of timeout before vehicle become destroyed by fire; Should be greater than Burning out timeout (max)</Original>				
+				<Russian>Максимум для выбора времени полного выгорания машин. Должен быть больше Время выгорания (мин).</Russian>
+			</Key>
+			
+			<Key ID="STR_VOF_NonCookingList">
+				<Original>Non-cooking off vehicles</Original>				
+				<Russian>Машины без эффекта Cook-off</Russian>
+			</Key>
+			<Key ID="STR_VOF_NonCookingList_desc">
+				<Original>Vehicle classes that should burn, but not cookoff (ACE3), in format [@Class, @StructuralDamage], e.g. ['CUP_btr_base', 15] or ['Car', 5]</Original>				
+				<Russian>Классы машин, которые должны гореть, но к ним не должен применяться эффект Cook off из ACE3. Формат [@Класс, @Поверждения до поломки], например ['CUP_btr_base', 15] или ['Car', 5]</Russian>
+			</Key>
+			
+			<Key ID="STR_VOF_CookingList">
+				<Original>Cooking off vehicles</Original>				
+				<Russian>Машины с эффектом Cook-off</Russian>
+			</Key>
+			<Key ID="STR_VOF_CookingList_desc">
+				<Original>Vehicle classes of the same family as non-cooking off ones, that can cookoff (e.g. BTR-80A, inherited from basic BTR class)"</Original>				
+				<Russian>Классы машин, принадлежащих к семье машин для которых не нужно применять эффект cook off (ACE3), но для которых этот эффект должен быть применен (например, БТР-80А, класс которого наследуется от базового БТР).</Russian>
+			</Key>
+		</Container>
+	</Package>
+</Project>
