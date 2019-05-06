@@ -3,5 +3,4 @@
 [] execVM "Functions\MGI_fnc_AICareandRevive.sqf";
 [] execVM "T8_missionEXEC.sqf";
 [] execVM "cos\cosInit.sqf";
-[] execVM "Prince\Weather.sqf";
 [] execVM "changelog.txt";

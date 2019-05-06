@@ -1,4 +1,8 @@
 # Invasion
+
+/////////////////////
+0.1.4a (hotfix)
+addon settings were behaving strange, had to redo them again
 /////////////////////
 0.1.4
 Added more enemy's to towns to include APC's and AA units so watch out when flying
