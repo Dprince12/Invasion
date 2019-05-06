@@ -76,6 +76,7 @@ _groupArrayIfritPat = [ "rhs_tigr_sts_msv", "rhs_kamaz5350_msv" ];
 _groupArrayW_APC = [ "rhs_bmp1_msv" ];
 _groupArrayT_APC = [ "rhs_Ob_681_2" ];
 _groupArraySniperTeam = [ "rhs_msv_emr_marksman", "rhs_msv_emr_marksman" ];
+_groupArrayAA = ["rhs_msv_emr_aa", "rhs_msv_emr_aa", "rhs_msv_emr_rifleman", "rhs_msv_emr_medic"];
 
 _groupArrayGurTeam = [ "I_soldier_TL_F", "I_medic_F", "I_soldier_F", "I_soldier_F", "I_soldier_F", "I_soldier_AR_F" ];
 _groupArrayBluTeam = [ "rhsusf_army_ucp_officer", "rhsusf_army_ucp_medic", "rhsusf_army_ucp_rifleman", "rhsusf_army_ucp_rifleman", "rhsusf_army_ucp_rifleman", "rhsusf_army_ucp_autorifleman" ];
@@ -95,7 +96,9 @@ spawnUnits =
  [ [ _FireTeam, "EOSzone1" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone1" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone1" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone1" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone1" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone1" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone1" ], [ "PATROL" ] ]
 ];
 
 spawnUnits2 =
@@ -103,7 +106,9 @@ spawnUnits2 =
  [ [ _FireTeam, "EOSzone2" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone2" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone2" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone2" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone2" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone2" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone2" ], [ "PATROL" ] ]
 ];
 
 spawnUnits3 =
@@ -111,7 +116,9 @@ spawnUnits3 =
  [ [ _FireTeam, "EOSzone3" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone3" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone3" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone3" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone3" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone3" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone3" ], [ "PATROL" ] ]
 ];
 
 spawnUnits4 =
@@ -119,7 +126,9 @@ spawnUnits4 =
  [ [ _FireTeam, "EOSzone4" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone4" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone4" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone4" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone4" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone4" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone4" ], [ "PATROL" ] ]
 ];
 
 spawnUnits5 =
@@ -127,7 +136,9 @@ spawnUnits5 =
  [ [ _FireTeam, "EOSzone5" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone5" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone5" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone5" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone5" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone5" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone5" ], [ "PATROL" ] ]
 ];
 
 spawnUnits6 =
@@ -135,7 +146,9 @@ spawnUnits6 =
  [ [ _FireTeam, "EOSzone6" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone6" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone6" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone6" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone6" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone6" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone6" ], [ "PATROL" ] ]
 ];
 
 spawnUnits7 =
@@ -143,7 +156,9 @@ spawnUnits7 =
  [ [ _FireTeam, "EOSzone7" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone7" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone7" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone7" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone7" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone7" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone7" ], [ "PATROL" ] ]
 ];
 
 spawnUnits8 =
@@ -151,7 +166,9 @@ spawnUnits8 =
  [ [ _FireTeam, "EOSzone8" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone8" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone8" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone8" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone8" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone8" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone8" ], [ "PATROL" ] ]
 ];
 
 spawnUnits9 =
@@ -159,7 +176,9 @@ spawnUnits9 =
  [ [ _FireTeam, "EOSzone9" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone9" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone9" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone9" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone9" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone9" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone9" ], [ "PATROL" ] ]
 ];
 
 spawnUnits10 =
@@ -167,7 +186,9 @@ spawnUnits10 =
  [ [ _FireTeam, "EOSzone10" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone10" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone10" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone10" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone10" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone10" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone10" ], [ "PATROL" ] ]
 ];
 
 spawnUnits11 =
@@ -175,7 +196,9 @@ spawnUnits11 =
  [ [ _FireTeam, "EOSzone11" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone11" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone11" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone11" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone11" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone11" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone11" ], [ "PATROL" ] ]
 ];
 
 spawnUnits12 =
@@ -183,7 +206,9 @@ spawnUnits12 =
  [ [ _FireTeam, "EOSzone12" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone12" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone12" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone12" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone12" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone12" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone12" ], [ "PATROL" ] ]
 ];
 
 spawnUnits13 =
@@ -191,7 +216,9 @@ spawnUnits13 =
  [ [ _FireTeam, "EOSzone13" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone13" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone13" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone13" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone13" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone13" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone13" ], [ "PATROL" ] ]
 ];
 
 spawnUnits14 =
@@ -199,7 +226,9 @@ spawnUnits14 =
  [ [ _FireTeam, "EOSzone14" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone14" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone14" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone14" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone14" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone14" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone14" ], [ "PATROL" ] ]
 ];
 
 spawnUnits15 =
@@ -207,7 +236,9 @@ spawnUnits15 =
  [ [ _FireTeam, "EOSzone15" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone15" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone15" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone15" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone15" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone15" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone15" ], [ "PATROL" ] ]
 ];
 
 spawnUnits16 =
@@ -215,7 +246,9 @@ spawnUnits16 =
  [ [ _FireTeam, "EOSzone16" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone16" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone16" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone16" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone16" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone16" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone16" ], [ "PATROL" ] ]
 ];
 
 spawnUnits17 =
@@ -223,7 +256,9 @@ spawnUnits17 =
  [ [ _FireTeam, "EOSzone17" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone17" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone17" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone17" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone17" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone17" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone17" ], [ "PATROL" ] ]
 ];
 
 spawnUnits18 =
@@ -231,7 +266,9 @@ spawnUnits18 =
  [ [ _FireTeam, "EOSzone18" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone18" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone18" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone18" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone18" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone18" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone18" ], [ "PATROL" ] ]
 ];
 
 spawnUnits19 =
@@ -239,7 +276,9 @@ spawnUnits19 =
  [ [ _FireTeam, "EOSzone19" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone19" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone19" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone19" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone19" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone19" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone19" ], [ "PATROL" ] ]
 ];
 
 spawnUnits20 =
@@ -247,7 +286,9 @@ spawnUnits20 =
  [ [ _FireTeam, "EOSzone20" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone20" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone20" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone20" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone20" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone20" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone20" ], [ "PATROL" ] ]
 ];
 
 spawnUnits21 =
@@ -255,7 +296,9 @@ spawnUnits21 =
  [ [ _FireTeam, "EOSzone21" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone21" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone21" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone21" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone21" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone21" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone21" ], [ "PATROL" ] ]
 ];
 
 spawnUnits22 =
@@ -263,7 +306,9 @@ spawnUnits22 =
  [ [ _FireTeam, "EOSzone22" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone22" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone22" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone22" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone22" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone22" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone22" ], [ "PATROL" ] ]
 ];
 
 spawnUnits23 =
@@ -271,7 +316,9 @@ spawnUnits23 =
  [ [ _FireTeam, "EOSzone23" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone23" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone23" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone23" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone23" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone23" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone23" ], [ "PATROL" ] ]
 ];
 
 spawnUnits24 =
@@ -279,7 +326,9 @@ spawnUnits24 =
  [ [ _FireTeam, "EOSzone24" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone24" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone24" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone24" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone24" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone24" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone24" ], [ "PATROL" ] ]
 ];
 
 spawnUnits25 =
@@ -287,7 +336,9 @@ spawnUnits25 =
  [ [ _FireTeam, "EOSzone25" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone25" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone25" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone25" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone25" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone25" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone25" ], [ "PATROL" ] ]
 ];
 
 spawnUnits26 =
@@ -295,7 +346,9 @@ spawnUnits26 =
  [ [ _FireTeam, "EOSzone26" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone26" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone26" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone26" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone26" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone26" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone26" ], [ "PATROL" ] ]
 ];
 
 spawnUnits27 =
@@ -303,7 +356,9 @@ spawnUnits27 =
  [ [ _FireTeam, "EOSzone27" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone27" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone27" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone27" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone27" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone27" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone27" ], [ "PATROL" ] ]
 ];
 
 spawnUnits28 =
@@ -311,7 +366,9 @@ spawnUnits28 =
  [ [ _FireTeam, "EOSzone28" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone28" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone28" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone28" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone28" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone28" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone28" ], [ "PATROL" ] ]
 ];
 
 spawnUnits29 =
@@ -319,7 +376,9 @@ spawnUnits29 =
  [ [ _FireTeam, "EOSzone29" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone29" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone29" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone29" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone29" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone29" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone29" ], [ "PATROL" ] ]
 ];
 
 spawnUnits30 =
@@ -327,7 +386,9 @@ spawnUnits30 =
  [ [ _FireTeam, "EOSzone30" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone30" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone30" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone30" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone30" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone30" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone30" ], [ "PATROL" ] ]
 ];
 
 spawnUnits31 =
@@ -335,7 +396,9 @@ spawnUnits31 =
  [ [ _FireTeam, "EOSzone31" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone31" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone31" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone31" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone31" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone31" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone31" ], [ "PATROL" ] ]
 ];
 
 spawnUnits32 =
@@ -343,7 +406,9 @@ spawnUnits32 =
  [ [ _FireTeam, "EOSzone32" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone32" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone32" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone32" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone32" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone32" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone32" ], [ "PATROL" ] ]
 ];
 
 spawnUnits33 =
@@ -351,7 +416,9 @@ spawnUnits33 =
  [ [ _FireTeam, "EOSzone33" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone33" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone33" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone33" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone33" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone33" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone33" ], [ "PATROL" ] ]
 ];
 
 spawnUnits34 =
@@ -359,7 +426,9 @@ spawnUnits34 =
  [ [ _FireTeam, "EOSzone34" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone34" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone34" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone34" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone34" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone34" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone34" ], [ "PATROL" ] ]
 ];
 
 spawnUnits35 =
@@ -367,7 +436,9 @@ spawnUnits35 =
  [ [ _FireTeam, "EOSzone35" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone35" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone35" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone35" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone35" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone35" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone35" ], [ "PATROL" ] ]
 ];
 
 spawnUnits36 =
@@ -375,7 +446,9 @@ spawnUnits36 =
  [ [ _FireTeam, "EOSzone36" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone36" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone36" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone36" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone36" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone36" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone36" ], [ "PATROL" ] ]
 ];
 
 spawnUnits37 =
@@ -383,7 +456,9 @@ spawnUnits37 =
  [ [ _FireTeam, "EOSzone37" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone37" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone37" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone37" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone37" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone37" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone37" ], [ "PATROL" ] ]
 ];
 
 spawnUnits38 =
@@ -391,7 +466,9 @@ spawnUnits38 =
  [ [ _FireTeam, "EOSzone38" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone38" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone38" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone38" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone38" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone38" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone38" ], [ "PATROL" ] ]
  ];
 
 spawnUnits39 =
@@ -399,7 +476,9 @@ spawnUnits39 =
  [ [ _FireTeam, "EOSzone39" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone39" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone39" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone39" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone39" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone39" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone39" ], [ "PATROL" ] ]
 ];
 
 spawnUnits40 =
@@ -407,7 +486,9 @@ spawnUnits40 =
  [ [ _FireTeam, "EOSzone40" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone40" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone40" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone40" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone40" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone40" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone40" ], [ "PATROL" ] ]
 ];
 
 spawnUnits41 =
@@ -415,7 +496,9 @@ spawnUnits41 =
  [ [ _FireTeam, "EOSzone41" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone41" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone41" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone41" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone41" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone41" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone41" ], [ "PATROL" ] ]
 ];
 
 spawnUnits42 =
@@ -423,7 +506,9 @@ spawnUnits42 =
  [ [ _FireTeam, "EOSzone42" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone42" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone42" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone42" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone42" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone42" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone42" ], [ "PATROL" ] ]
 ];
 
 spawnUnits43 =
@@ -431,7 +516,9 @@ spawnUnits43 =
  [ [ _FireTeam, "EOSzone43" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone43" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone43" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone43" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone43" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone43" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone43" ], [ "PATROL" ] ]
 ];
 
 spawnUnits44 =
@@ -439,7 +526,9 @@ spawnUnits44 =
  [ [ _FireTeam, "EOSzone44" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone44" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone44" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone44" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone44" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone44" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone44" ], [ "PATROL" ] ]
 ];
 
 spawnUnits45 =
@@ -447,7 +536,9 @@ spawnUnits45 =
  [ [ _FireTeam, "EOSzone45" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone45" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone45" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone45" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone45" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone45" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone45" ], [ "PATROL" ] ]
 ];
 
 spawnUnits46 =
@@ -455,7 +546,9 @@ spawnUnits46 =
  [ [ _FireTeam, "EOSzone46" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone46" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone46" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone46" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone46" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone46" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone46" ], [ "PATROL" ] ]
 ];
 
 spawnUnits47 =
@@ -463,7 +556,9 @@ spawnUnits47 =
  [ [ _FireTeam, "EOSzone47" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone47" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone47" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone47" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone47" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone47" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone47" ], [ "PATROL" ] ]
 ];
 
 spawnUnits48 =
@@ -471,7 +566,9 @@ spawnUnits48 =
  [ [ _FireTeam, "EOSzone48" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone48" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone48" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone48" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone48" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone48" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone48" ], [ "PATROL" ] ]
 ];
 
 spawnUnits49 =
@@ -479,7 +576,9 @@ spawnUnits49 =
  [ [ _FireTeam, "EOSzone49" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone49" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone49" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone49" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone49" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone49" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone49" ], [ "PATROL" ] ]
 ];
 
 spawnUnits50 =
@@ -487,7 +586,9 @@ spawnUnits50 =
  [ [ _FireTeam, "EOSzone50" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone50" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone50" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone50" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone50" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone50" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone50" ], [ "PATROL" ] ]
 ];
 
 spawnUnits51 =
@@ -495,7 +596,9 @@ spawnUnits51 =
  [ [ _FireTeam, "EOSzone51" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone51" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone51" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone51" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone51" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone51" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone51" ], [ "PATROL" ] ]
 ];
 
 spawnUnits52 =
@@ -503,7 +606,9 @@ spawnUnits52 =
  [ [ _FireTeam, "EOSzone52" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone52" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone52" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone52" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone52" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone52" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone52" ], [ "PATROL" ] ]
 ];
 
 spawnUnits53 =
@@ -511,7 +616,9 @@ spawnUnits53 =
  [ [ _FireTeam, "EOSzone53" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone53" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone53" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone53" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone53" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone53" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone53" ], [ "PATROL" ] ]
 ];
 
 spawnUnits54 =
@@ -519,7 +626,9 @@ spawnUnits54 =
  [ [ _FireTeam, "EOSzone54" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone54" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone54" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone54" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone54" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone54" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone54" ], [ "PATROL" ] ]
 ];
 
 spawnUnits55 =
@@ -527,7 +636,9 @@ spawnUnits55 =
  [ [ _FireTeam, "EOSzone55" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone55" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone55" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone55" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone55" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone55" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone55" ], [ "PATROL" ] ]
 ];
 
 spawnUnits56 =
@@ -535,7 +646,9 @@ spawnUnits56 =
  [ [ _FireTeam, "EOSzone56" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone56" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone56" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone56" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone56" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone56" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone56" ], [ "PATROL" ] ]
 ];
 
 spawnUnits57 =
@@ -543,7 +656,9 @@ spawnUnits57 =
  [ [ _FireTeam, "EOSzone57" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone57" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone57" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone57" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone57" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone57" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone57" ], [ "PATROL" ] ]
 ];
 
 spawnUnits58 =
@@ -551,7 +666,9 @@ spawnUnits58 =
  [ [ _FireTeam, "EOSzone58" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone58" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone58" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone58" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone58" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone58" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone58" ], [ "PATROL" ] ]
 ];
 
 spawnUnits59 =
@@ -559,7 +676,9 @@ spawnUnits59 =
  [ [ _FireTeam, "EOSzone59" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone59" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone59" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone59" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone59" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone59" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone59" ], [ "PATROL" ] ]
 ];
 
 spawnUnits60 =
@@ -567,7 +686,9 @@ spawnUnits60 =
  [ [ _FireTeam, "EOSzone60" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone60" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone60" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone60" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone60" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone60" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone60" ], [ "PATROL" ] ]
 ];
 
 spawnUnits61 =
@@ -575,7 +696,9 @@ spawnUnits61 =
  [ [ _FireTeam, "EOSzone61" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone61" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone61" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone61" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone61" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone61" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone61" ], [ "PATROL" ] ]
 ];
 
 spawnUnits62 =
@@ -583,7 +706,9 @@ spawnUnits62 =
  [ [ _FireTeam, "EOSzone62" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone62" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone62" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone62" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone62" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone62" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone62" ], [ "PATROL" ] ]
 ];
 
 spawnUnits63 =
@@ -591,7 +716,9 @@ spawnUnits63 =
  [ [ _FireTeam, "EOSzone63" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone63" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone63" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone63" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone63" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone63" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone63" ], [ "PATROL" ] ]
 ];
 
 spawnUnits64 =
@@ -599,7 +726,9 @@ spawnUnits64 =
  [ [ _FireTeam, "EOSzone64" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone64" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone64" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone64" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone64" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone64" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone64" ], [ "PATROL" ] ]
 ];
 
 spawnUnits65 =
@@ -607,7 +736,9 @@ spawnUnits65 =
  [ [ _FireTeam, "EOSzone65" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone65" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone65" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone65" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone65" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone65" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone65" ], [ "PATROL" ] ]
 ];
 
 spawnUnits66 =
@@ -615,7 +746,9 @@ spawnUnits66 =
  [ [ _FireTeam, "EOSzone66" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone66" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone66" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone66" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone66" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone66" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone66" ], [ "PATROL" ] ]
 ];
 
 spawnUnits67 =
@@ -623,7 +756,9 @@ spawnUnits67 =
  [ [ _FireTeam, "EOSzone67" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone67" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone67" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone67" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone67" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone67" ], [ "PATROL" ] ],
+ [ [ _groupArrayT_APC, "EOSzone67" ], [ "PATROL" ] ]
 ];
 
 spawnUnits68 =
@@ -631,7 +766,9 @@ spawnUnits68 =
  [ [ _FireTeam, "EOSzone68" ], [ "GARRISON" ] ],
  [ [ _FireTeam, "EOSzone68" ], [ "DEFEND" ] ],
  [ [ _FullTeam, "EOSzone68" ], [ "PATROL" ] ],
- [ [ _FireTeam, "EOSzone68" ], [ "PATROL_URBAN" ] ]
+ [ [ _FireTeam, "EOSzone68" ], [ "PATROL_URBAN" ] ],
+ [ [ _groupArrayAA, "EOSzone68" ], [ "PATROL" ] ],
+ [ [ _groupArrayW_APC, "EOSzone68" ], [ "PATROL" ] ]
 ];
 
 

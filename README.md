@@ -1,6 +1,12 @@
 # Invasion
 /////////////////////
-0.1.2
+0.1.4
+Added more enemy's to towns to include APC's and AA units so watch out when flying
+changed roles to include Medic's Engineers and many more special people
+reactivated Vcom, hopefully without ragdolling the AI will die. 
+reworked ace addon settings
+reworked the arsonel at base, (has more stuff now)
+added humvee's to the base
 
 /////////////////////
 0.1.1

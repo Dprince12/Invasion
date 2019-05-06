@@ -29,7 +29,7 @@ _rain = (_weather select 5);
 
 // only foggy in the mornings
 
-if ((daytime > 4) && (daytime < 10)) then 
+if ((daytime > 4) && (daytime < 5)) then 
 {
 0 setFog _fog;
 }else{0 setFog 0};
@@ -40,7 +40,6 @@ if ((daytime > 4) && (daytime < 10)) then
 0 setOvercast _oc;
 0 setRain _rain;
 
-_foggy = 0;
 sleep 120;
 
 while {true} do
@@ -55,7 +54,7 @@ _force = (_weather select 3);
 _oc = (_weather select 4);
 _rain = (_weather select 5); 
 
-if ((daytime > 4) && (daytime < 10)) then 
+if ((daytime > 4) && (daytime < 6)) then 
 {
 (200 + (Random 1000)) setFog _fog;
 _foggy = 0;
